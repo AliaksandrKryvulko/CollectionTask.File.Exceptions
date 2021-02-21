@@ -4,6 +4,6 @@ public class TestingGit {
   private String name;
   private String secondCommit;
   private String fourthCommit;
-  private String fifthCommit;
+  private String changedFromGit;
 
 }
