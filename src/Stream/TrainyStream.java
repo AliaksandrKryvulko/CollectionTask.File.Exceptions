@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class TrainySream {
+public class TrainyStream {
     List <Integer> lst=new ArrayList<>();
     public static void main(String[] args) {
         List<String> list= Arrays.stream(args).filter(s -> s.length()<6).collect(Collectors.toList());
