@@ -1,4 +1,4 @@
-package exceptionTask.except;
+package exceptionTask.exceptions;
 
 import exceptionTask.bean.Student;
 import exceptionTask.enums.Subject;

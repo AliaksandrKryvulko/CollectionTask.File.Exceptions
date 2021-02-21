@@ -1,4 +1,4 @@
-package exceptionTask.except;
+package exceptionTask.exceptions;
 
 public class NotPresentedGroup extends RuntimeException{
     public NotPresentedGroup() {

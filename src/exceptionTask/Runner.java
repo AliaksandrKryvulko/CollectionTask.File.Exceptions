@@ -46,6 +46,6 @@ public class Runner {
         //Calculate AvgMark for specific subject in All University
         double avgMarkSubject = universityJournal.getAvgMark(MATHEMATICS);
         System.out.printf("Avg mark on subject in University %.3f", avgMarkSubject);
-
+        //some add
     }
 }

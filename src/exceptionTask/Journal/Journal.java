@@ -2,8 +2,8 @@ package exceptionTask.Journal;
 
 import exceptionTask.bean.Student;
 import exceptionTask.enums.Subject;
-import exceptionTask.except.NonPositiveArgumentException;
-import exceptionTask.except.SubjectsNotPresented;
+import exceptionTask.exceptions.NonPositiveArgumentException;
+import exceptionTask.exceptions.SubjectsNotPresented;
 
 import java.util.ArrayList;
 import java.util.List;
