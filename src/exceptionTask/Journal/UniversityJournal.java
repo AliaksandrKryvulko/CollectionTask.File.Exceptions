@@ -44,10 +44,10 @@ public class UniversityJournal {
         List<Integer> sumMark = new ArrayList<>();
         sumMark = faculties.stream()
                 .map(faculty -> faculty.getGroups())
-                .flatMap(groups -> groups.stream())
+                .flatMap(List::stream)
                 .map(group -> group.getJournal())
                 .map(journal -> journal.getRecords())
-                .flatMap(jRecords -> jRecords.stream())
+                .flatMap(List::stream)
                 .filter(journalRecord -> journalRecord.getSubject() == subject)
                 .map(Journal.JournalRecord::getMark)
                 .collect(Collectors.toList());
